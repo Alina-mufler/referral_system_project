@@ -19,7 +19,7 @@ cp .env.example .env ([Как заполнить переменные окруж
 ```python manage.py runserver```
 
 
-#### <a id="description">Описание переменных окружения</a>
+#### <a id="description">Описание и заполнение переменных окружения</a>
 SECRET_KEY - для его получения необходимо запустить следующий код Python: 
 ```python
 from django.core.management.utils import get_random_secret_key  
